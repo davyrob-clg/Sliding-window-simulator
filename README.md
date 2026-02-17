@@ -1,3 +1,3 @@
 # Sliding-Window-Protocol-Simulator
 
-Visit [here](https://nikhilsahu.ml/Sliding-window-simulator/)
+Visit [here](https://sws.cs-unigib.org/)

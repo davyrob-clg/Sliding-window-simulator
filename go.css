@@ -5,3 +5,24 @@
   margin-right: 5em;
   /* margin-left: -22em; */
 }
+
+.my-custom-color {
+  --bulma-title-color: #ff00ff; /* Your custom color (e.g., magenta) */
+  color: red;
+}
+
+
+
+/* Alternatively, target all titles: */
+.card {
+
+  background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 50px;           /* Example height for the div */
+     border: 1px solid black; /* Optional styling */
+}

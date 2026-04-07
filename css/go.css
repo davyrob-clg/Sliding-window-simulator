@@ -11,7 +11,29 @@
   color: red;
 }
 
+.card-content {
+  color: white;
+   background-color: black;
+}
 
+.content {
+  --bulma-title-color: white;
+  color: white;
+  background-color: black;
+}
+
+.card-header-title {
+  color: white;
+  background-color: black;
+}
+
+.card-footer-item {
+  color: white;
+}
+
+.p {
+  color: white;
+}
 
 /* Alternatively, target all titles: */
 .card {
@@ -26,3 +48,15 @@
     height: 50px;           /* Example height for the div */
      border: 1px solid black; /* Optional styling */
 }
+
+/* Unvisited link */
+  a:link { color: rgb(255, 0, 140); }
+
+  /* Visited link */
+  a:visited { color: rgb(0, 128, 53); }
+
+  /* Mouse over link */
+  a:hover { color: orange; }
+
+  /* Selected link (as it is being clicked) */
+  a:active { color: red; }
